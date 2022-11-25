@@ -1,1 +1,1 @@
-"Veterinaria React Project" 
+Veterinaria React Project
