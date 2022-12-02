@@ -6,11 +6,11 @@ const Formulario = () => {
       </h2>
       <p className="text-lg mt-5 text-center mb-10">
         Añade tus pacientes y {''}
-        <span className="text-indigo-600 font-bold">
+        <span className="text-[#156a6d] font-bold">
           Administralos
         </span>
       </p>
-      <form className="bg-white shadow-md rounded-lg py-10 px-5">
+      <form className="bg-white shadow-md rounded-lg py-10 px-5 h-[680px]">
         <div className="mb-5">
           <label htmlFor="mascota" className="block text-gray-700 font-bold">
             Nombre Mascota
@@ -73,7 +73,7 @@ const Formulario = () => {
         <div className="container flex justify-center">
           <input
             type="submit"
-            className="bg-indigo-600 text-white rounded-md py-2 font-bold w-4/5 hover:bg-indigo-800 cursor-pointer transition-all"
+            className="bg-[#156a6d] text-white rounded-md py-2 font-bold w-4/5 hover:bg-[#156a6d] cursor-pointer transition-all"
             value="Agregar Paciente"
           />
         </div>

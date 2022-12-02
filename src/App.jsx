@@ -4,9 +4,9 @@ import ListadoPacientes from "./components/ListadoPacientes"
 
 function App() {
   return (
-    <div className="container mx-auto mt-16">
+    <div className="container mx-auto my-16">
       <Header />
-      <div className="md:flex mt-12">
+      <div className="md:flex my-12">
         <Formulario />
         <ListadoPacientes />
       </div>
